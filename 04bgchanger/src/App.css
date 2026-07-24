@@ -1,0 +1,86 @@
+#root{
+  background-color: white;
+}
+.bg {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+#red {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #ef4444;
+}
+
+#blue {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #3b82f6;
+}
+
+#orange {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #f97316;
+}
+
+#pink {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #ec4899;
+}
+
+#yellow {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #eab308;
+}
+
+#black {
+  width: 70px;
+  height: 40px;
+  border: 2px solid black;   /* ✅ solid black border */
+  border-radius: 10px;       /* ✅ rounded corners */
+  background-color: #1e293b;
+}
+#red:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#blue:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#orange:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#pink:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#yellow:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#black:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
